@@ -1,24 +1,10 @@
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
-    return (
-        <div style={{
-            backgroundColor: 'black',
-            minHeight: '100vh',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-        }}>
-            <h1 style={{
-                color: 'white',
-                fontSize: '3rem',
-                fontFamily: inter.style.fontFamily,
-            }}>
-                codeIntrepid
-            </h1>
-        </div>
-    )
+  return (
+    <div className="min-h-screen bg-black flex justify-center items-center">
+      <div className="flex-col">
+        <h1 className="text-white text-5xl font-inter">codeIntrepid</h1>
+        <h2 className="text-white text-2xl font-inter">by ansel colvin</h2>
+      </div>
+    </div>
+  );
 }
