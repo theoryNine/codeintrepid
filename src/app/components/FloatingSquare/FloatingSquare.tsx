@@ -2,7 +2,6 @@ import { ReactElement } from "react";
 
 interface FloatingSquareProps {
   location: "top" | "bottom";
-  background: string;
 }
 
 export default function FloatingSquare({
