@@ -14,7 +14,7 @@ export default function FloatingSquare({
 
   return (
     <div
-      className={`w-[300px] h-[300px] lg:w-[600px] lg:h-[600px] absolute bg-cover bg-[url('/space.jpg')] ${positionClass} rotate-45 saturate-200 border-2 border-white`}
+      className={`w-[300px] h-[300px] lg:w-[600px] lg:h-[600px] fixed bg-cover bg-[url('/space.jpg')] ${positionClass} rotate-45 saturate-200 border-2 border-white`}
     />
   );
 }
