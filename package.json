@@ -1,6 +1,9 @@
 {
   "name": "codeintrepid",
   "version": "0.1.0",
+  "cacheDirectories": [
+    ".next/cache"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev",
