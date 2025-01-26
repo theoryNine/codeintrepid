@@ -1,13 +1,14 @@
+import FloatingSquare from "../components/FloatingSquare/FloatingSquare";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black p-6">
+    <div className="min-h-screen bg-black p-6 overflow-hidden relative">
+      <FloatingSquare location="top" />
       <div className="flex flex-col md:flex-row md:items-start w-full">
         <div className="flex-1 flex justify-center md:h-screen items-center mb-8 md:mb-0">
           <div>
             <h1 className="text-white text-5xl font-inter">codeIntrepid</h1>
-            <h2 className="text-white text-2xl font-inter mt-2">
-              by ansel colvin
-            </h2>
+            <h2 className="text-white text-2xl font-inter mt-2">by ansel</h2>
           </div>
         </div>
         <div className="max-w-2xl">
@@ -19,6 +20,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <FloatingSquare location="bottom" />
     </div>
   );
 }
